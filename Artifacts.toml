@@ -1,0 +1,9 @@
+[[HelloCExecutable]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "613561d3ba16dba3d55ac8c17fab876c992f7050"
+os = "macos"
+
+    [[HelloCExecutable.download]]
+    sha256 = "2198a434aa6b395fe2828bdb2198b456aac9c15602c63f66fe37cbabbd78dcfc"
+    url = "https://github.com/terasakisatoshi/HelloCExecutable_jll.jl/releases/download/HelloCExecutable-v0.0.1+0/HelloCExecutable.v0.0.1.x86_64-apple-darwin14-cxx11.tar.gz"
