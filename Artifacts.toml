@@ -1,9 +1,38 @@
 [[HelloCExecutable]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ecdb1bf91c4599a9218e4a7976a119dd3b0c2e33"
+libc = "glibc"
+os = "linux"
+
+    [[HelloCExecutable.download]]
+    sha256 = "b24309a1b161c3d85c5a0ef4945afdc9c3a43ca71923fd4c75c7bf984fd426a5"
+    url = "https://github.com/terasakisatoshi/HelloCExecutable_jll.jl/releases/download/HelloCExecutable-v0.1.0+0/HelloCExecutable.v0.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[HelloCExecutable]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "613561d3ba16dba3d55ac8c17fab876c992f7050"
+git-tree-sha1 = "d92f0b10bed35d5f97728237b21c6e0ace3b36f0"
 os = "macos"
 
     [[HelloCExecutable.download]]
-    sha256 = "2198a434aa6b395fe2828bdb2198b456aac9c15602c63f66fe37cbabbd78dcfc"
-    url = "https://github.com/terasakisatoshi/HelloCExecutable_jll.jl/releases/download/HelloCExecutable-v0.0.1+0/HelloCExecutable.v0.0.1.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "e2b627f5f01d788c0b716d8f6bef82d8bee59de946838055d050f102ff9a29c2"
+    url = "https://github.com/terasakisatoshi/HelloCExecutable_jll.jl/releases/download/HelloCExecutable-v0.1.0+0/HelloCExecutable.v0.1.0.x86_64-apple-darwin14-cxx11.tar.gz"
+[[HelloCExecutable]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f72e313a748ef2abd609f28e994d82683df87d0f"
+libc = "glibc"
+os = "linux"
+
+    [[HelloCExecutable.download]]
+    sha256 = "29f7fd34ef3865bb2f4b538cbc4c2ec6293614cee0f04b40e4b1a70d4b29b5b0"
+    url = "https://github.com/terasakisatoshi/HelloCExecutable_jll.jl/releases/download/HelloCExecutable-v0.1.0+0/HelloCExecutable.v0.1.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[HelloCExecutable]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d970e67f1912206f20e8ebafd66d239d484a8ede"
+os = "windows"
+
+    [[HelloCExecutable.download]]
+    sha256 = "fd6ae0cb9e1825c94b53684d1ed62196233f7da9ad42f6cf04758f4705399842"
+    url = "https://github.com/terasakisatoshi/HelloCExecutable_jll.jl/releases/download/HelloCExecutable-v0.1.0+0/HelloCExecutable.v0.1.0.x86_64-w64-mingw32-cxx11.tar.gz"
